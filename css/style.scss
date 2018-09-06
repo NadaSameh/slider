@@ -1,0 +1,251 @@
+$gray-color:#efefef;
+$black-color:#000;
+$white-color:#fff;
+$red-color:#ed2024;
+div{
+  font-family: 'Roboto Slab', serif;
+}
+body{
+  background-color: $gray-color;
+}
+
+.slider{
+  .pic-data{
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 1px;
+      margin-right: 1px;
+      
+        img {
+          width: 585px;
+          transition: 2s;
+        }
+        .pic-slider1{
+          height: 240px;
+        }
+        .pic-slider3{
+          height: 480px;
+        }
+        .pic-slider4{
+          height: 390px;
+        }
+        .half-img{
+          width: 100%;
+          height: 240px;
+        }
+        .captcha{
+          padding: 10px;
+          background: rgba(0,0,0,0.5);
+          box-shadow: inset -2px -50px 200px 50px rgba(0, 0, 0,0.3);
+          position: absolute;
+          top:0 ;
+          color: $white-color;
+          width: 100%;
+          height: 100%;
+          transition: all 0.3s ease-in-out;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          .link-hover{
+            margin-top: 10px;
+            a{
+              text-decoration: none;
+              color: $white-color;
+              background-color: $red-color;
+              border-radius: 3px;
+              padding: 5px 20px
+            }
+            &:hover{
+              cursor: pointer;
+            }
+          }
+          .link-hover1{
+            margin-top: 5px;
+            font-size: 12px;
+            a{
+              text-decoration: none;
+              color: $white-color;
+              background-color: $red-color;
+              border-radius: 3px;
+              padding: 3px 10px
+            }
+            &:hover{
+              cursor: pointer;
+            }
+          }
+          .data-hover{
+            margin-top: 55%;
+
+            span{
+              font-size: 13px;
+            }
+            p{
+              font-size: 30px;
+              font-weight: 600;
+            }
+          }
+          .data-hover1{
+            margin-top: 15%;
+
+            span{
+              font-size: 13px;
+            }
+            p{
+              font-size: 25px;
+              font-weight: 600;
+            }
+          }
+          .data-hover2{
+            margin-top: 35%;
+
+            span{
+              font-size: 12px;
+            }
+            p{
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+          .data-hover-four{
+            margin-top: 100%;
+
+            span{
+              font-size: 13px;
+            }
+            p{
+              font-size: 20px;
+              font-weight: 600;
+            }
+          }
+          .data-hover-three{
+            margin-top: 60%;
+
+            span{
+              font-size: 13px;
+            }
+            p{
+              font-size: 20px;
+              font-weight: 600;
+            }
+          }
+          .data-hover6{
+            margin-top: 40%;
+
+            span{
+              font-size: 13px;
+            }
+            p{
+              font-size: 20px;
+              font-weight: 600;
+            }
+          }
+          
+          &:hover{
+            background: rgba(0,0,0,0);
+          }
+        }
+        &:hover{
+           img {
+            cursor: pointer;
+            transform: scale(2);
+           }
+        }
+  }
+  .pic-data-last{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1px;
+    margin-right: 1px;
+      img {
+        height: 480px;
+        width: 100%;
+        transition: 2s
+      }
+      .half-img{
+        width: 100%;
+        height: 160px;
+      }
+      .captcha{
+        padding: 10px;
+        background: rgba(0,0,0,0.5);
+        box-shadow: inset -2px -50px 200px 50px rgba(0, 0, 0,0.3);
+        position: absolute;
+        top:0 ;
+        color: $white-color;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        .link-hover{
+          margin-top: 10px;
+          a{
+            text-decoration: none;
+            color: $white-color;
+            background-color: $red-color;
+            border-radius: 3px;
+            padding: 5px 20px
+          }
+          &:hover{
+            cursor: pointer;
+          }
+        }
+        .link-hover1{
+          margin-top: 5px;
+          font-size: 12px;
+          a{
+            text-decoration: none;
+            color: $white-color;
+            background-color: $red-color;
+            border-radius: 3px;
+            padding: 3px 10px
+          }
+          &:hover{
+            cursor: pointer;
+          }
+        }
+        .data-hover{
+          margin-top: 35%;
+
+          span{
+            font-size: 13px;
+          }
+          p{
+            font-size: 30px;
+            font-weight: 600;
+          }
+        }
+        .data-hover-last{
+          margin-top: 18%;
+
+          span{
+            font-size: 13px;
+          }
+          p{
+            font-size: 17px;
+            font-weight: 500;
+          }
+        }
+        .data-hover7{
+          margin-top: 35%;
+
+          span{
+            font-size: 13px;
+          }
+          p{
+            font-size: 25px;
+            font-weight: 600;
+          }
+        }
+        &:hover{
+          background: rgba(0,0,0,0);
+        }
+      }
+      &:hover{
+         img {
+          cursor: pointer;
+          transform: scale(2);
+         }
+      }
+}
+}
+ 
